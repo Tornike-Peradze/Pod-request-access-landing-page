@@ -3,21 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon-32x32.png"
-    />
     <title>Frontend Mentor | Pod request access landing page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./stlyes/style.css" />
-    <link rel="reset-style" href="./stlyes/reset.css" />
+    <link rel="reset-style" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header>
@@ -29,8 +21,8 @@
       />
     </header>
     <article>
-      <h2>Publish your podcasts everywhere.</h2>
-      <p>
+      <h1>Publish your podcasts <span>everywhere.</span></h1>
+      <p class="product-feature">
         Upload your audio to Pod with a single click. We’ll then distribute your
         podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
         more!
@@ -57,9 +49,9 @@
           class="icon"
         />
       </aside>
-      <div>
-        <button>Email Address</button>
-        <button>Request access</button>
+      <div class="buttons-group">
+        <button class="button first">Email Address</button>
+        <button class="button second">Request access</button>
       </div>
     </article>
   </body>
