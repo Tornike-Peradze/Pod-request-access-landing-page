@@ -132,3 +132,122 @@ aside {
   line-height: 28px;
   border: none;
 }
+
+.pattern-dot {
+  display: none;
+}
+
+/*
+   Tablet Version 
+*/
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../starter-code/assets/tablet/image-host.jpg);
+    background-repeat: no-repeat;
+    background-size: 60% 80%;
+    background-position: top right;
+    background-color: #121725;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  body::after {
+    content: none;
+    position: initial;
+    inset: initial;
+    background-color: transparent;
+    width: initial;
+    height: initial;
+    z-index: initial;
+  }
+
+  /*
+    ========================================
+      Header 
+    ========================================
+  */
+
+  header {
+    display: block;
+  }
+
+  .logo {
+    width: 20%;
+    margin: 5rem 3.9rem;
+    padding: 0;
+  }
+
+  /*
+  ========================================
+    Article 
+  ========================================
+*/
+
+  article {
+    width: 63.5rem;
+    height: 50.9rem;
+    background-color: #121725;
+    text-align: left;
+    position: absolute;
+    top: 20.2rem;
+    left: 3.9rem;
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    padding-top: 9.3rem;
+    color: #54e6af;
+  }
+
+  .product-feature {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 3.1rem 0 4rem;
+    width: 25.1em;
+  }
+
+  aside {
+    order: 2;
+    gap: 4rem;
+    padding: 6.4rem 0 0;
+  }
+
+  .icon {
+    width: 96px;
+    height: auto;
+  }
+
+  .buttons-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+    padding-bottom: 0;
+    position: relative;
+  }
+
+  .button {
+    width: 42.7rem;
+    height: 5.6rem;
+  }
+
+  .second {
+    width: 16.2rem;
+    height: 4.6rem;
+    position: absolute;
+    left: 26rem;
+  }
+
+  .pattern-dot {
+    display: inline-block;
+    position: absolute;
+    bottom: -40%;
+    left: 2rem;
+  }
+}
