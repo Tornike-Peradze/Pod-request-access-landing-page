@@ -30,6 +30,10 @@ body::after {
   z-index: -1;
 }
 
+#green_red_div {
+  display: none;
+}
+
 /*
    Mobile Version 
 */

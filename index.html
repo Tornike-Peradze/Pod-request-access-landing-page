@@ -51,8 +51,12 @@
         />
       </aside>
       <div class="buttons-group">
-        <button class="button first">Email Address</button>
-        <button class="button second">Request access</button>
+        <input type="email" id="email_id" placeholder="Email address" oninput="chacker()" class="button first"></input>
+        <div id="green_red_div">
+          <p id="success_p">Your email is sent!</p>
+          <p id="error_p">Oops! Please check your email</p>
+        </div>
+        <button class="button second" id="request-btn">Request access</button>
       </div>
     </article>
     <img
