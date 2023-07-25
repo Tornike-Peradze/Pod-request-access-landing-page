@@ -8,7 +8,9 @@ const regexPattern = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
 request.addEventListener("click", function () {
   if (regexPattern.test(email.value)) {
     success.style.display = "block";
+    error.style.display = "none";
   } else {
     error.style.display = "block";
+    success.style.display = "none";
   }
 });
