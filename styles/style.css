@@ -30,8 +30,14 @@ body::after {
   z-index: -1;
 }
 
-#green_red_div {
+#success {
   display: none;
+  color: green;
+}
+
+#error {
+  display: none;
+  color: red;
 }
 
 /*
