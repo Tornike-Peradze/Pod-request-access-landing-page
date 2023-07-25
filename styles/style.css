@@ -13,7 +13,7 @@ html {
 body {
   overflow-x: hidden;
   font-family: "Chivo", sans-serif;
-  background-image: url(../starter-code/assets/mobile/image-host.jpg);
+  background-image: url(../assets/mobile/image-host.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -153,7 +153,7 @@ aside {
 
 @media screen and (min-width: 768px) {
   body {
-    background-image: url(../starter-code/assets/tablet/image-host.jpg);
+    background-image: url(../assets/tablet/image-host.jpg);
     background-repeat: no-repeat;
     background-size: 60% 80%;
     background-position: top right;
@@ -274,7 +274,7 @@ aside {
 
 @media screen and (min-width: 950px) {
   body {
-    background-image: url(../starter-code/assets/desktop/image-host.jpg);
+    background-image: url(../assets/desktop/image-host.jpg);
     background-repeat: no-repeat;
     background-size: none;
     background-position: center right;
