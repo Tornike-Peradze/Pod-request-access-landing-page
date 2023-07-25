@@ -27,8 +27,8 @@ The challenge involved building a responsive landing page using HTML, CSS, and J
 
 ### Links
 
-- Solution URL: (https://github.com/Tornike-Peradze/huddle-page)
-- Live Site URL: (https://tornike-peradze.github.io/huddle-page/)
+- Solution URL: (https://github.com/Tornike-Peradze/Pod-request-access-landing-page)
+- Live Site URL: (https://tornike-peradze.github.io/Pod-request-access-landing-page/)
 
 ## My process
 
